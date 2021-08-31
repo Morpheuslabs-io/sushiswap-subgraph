@@ -11,9 +11,11 @@
         "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 /sushiswap/sushiswap",
 
         "deploy:matic": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/matic-minichef subgraph.yaml",
+        "deploy:mumbai": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/mumbai-minichef subgraph.yaml",
         "deploy:xdai": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/xdai-minichef subgraph.yaml",
 
         "prepare:matic": "mustache config/matic.json template.yaml > subgraph.yaml",
+        "prepare:mumbai": "mustache config/mumbai.json template.yaml > subgraph.yaml",
         "prepare:xdai": "mustache config/xdai.json template.yaml > subgraph.yaml",
         "prepare:harmony": "mustache config/harmony.json template.yaml > subgraph.yaml"
     }
