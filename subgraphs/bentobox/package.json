@@ -25,6 +25,7 @@
     "prepare:goerli": ".",
     "prepare:kovan": ".",
     "prepare:matic": "mustache config/matic.json template.yaml > subgraph.yaml",
+    "prepare:mumbai": "mustache config/mumbai.json template.yaml > subgraph.yaml",
     "prepare:rinkeby": ".",
     "prepare:xdai": "mustache config/xdai.json template.yaml > subgraph.yaml"
   }
