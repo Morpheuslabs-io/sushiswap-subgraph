@@ -107,9 +107,22 @@ subgraphs/minichef
 
 subgraphs/masterchef
 
-`graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ midotrung/masterChefMumbai masterchef.yaml`
+`graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ midotrung/masterChefMumbai subgraph.yaml`
+
+graph deploy --studio masterchefmumbainew --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/
 
 
 subgraphs/exchange:
 
 `graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ midotrung/mumbaiExchange subgraph.yaml`
+
+
+-----------
+
+ISSUE
+
+`packages/constants/index.ts`
+
+```
+export const MASTER_CHEF_START_BLOCK = BigInt.fromI32(17953262);
+```

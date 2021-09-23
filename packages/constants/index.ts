@@ -31,7 +31,7 @@ export const LOCKUP_POOL_NUMBER = BigInt.fromI32(29);
 
 export const LOCKUP_BLOCK_NUMBER = BigInt.fromI32(10959148);
 
-export const MASTER_CHEF_START_BLOCK = BigInt.fromI32(10750000);
+export const MASTER_CHEF_START_BLOCK = BigInt.fromI32(17953262);
 
 export const UNISWAP_SUSHI_ETH_PAIR_FIRST_LIQUDITY_BLOCK =
   BigInt.fromI32(10750005);
@@ -58,20 +58,20 @@ export const PAIR_BORROW = "borrow";
 
 export const PAIR_REPAY = "repay";
 
-export const FACTORY_ADDRESS = Address.fromString("0x075a3Dd59F039127D708064d71442BFbEDfd4154");
+export const FACTORY_ADDRESS = Address.fromString("0x3e68BB4559CD8De3e3BDCdF22BFe97043b87984a");
 
 export const MASTER_CHEF_ADDRESS = Address.fromString(
-  "0x7a0038987Ca18b07B92E13d8717dEE21d0F0B840" 
+  "0x5F02D5a73260a790BC7f981e3f8F0AaF1F879165" 
 );
 
 export const MASTER_CHEF_V2_ADDRESS = Address.fromString(
   "0xef0881ec094552b2e128cf945ef17a6752b4ec5d"
 );
 
-export const SUSHI_BAR_ADDRESS = Address.fromString("0xCb886aD4F53fEbBd95646AeBeCe4b714E838Eed0");
+export const SUSHI_BAR_ADDRESS = Address.fromString("0xF1fF1be385b6250480bFA49B0eDdf38f0E5bAd3e");
 
 export const SUSHI_MAKER_ADDRESS = Address.fromString(
-  "0x5595048De6123604646456BE407BfAAC4d34beF7"
+  "0xed77571930A70F4F9F66Cc4F4Ce2FDd146Ba379d"
 );
 
 export const SUSHI_TOKEN_ADDRESS = Address.fromString(
@@ -144,7 +144,7 @@ export const KASHI_PAIR_MEDIUM_RISK_MASTER_ADDRESS = Address.fromString(
 );
 
 // MiniChef
-export const MINI_CHEF_ADDRESS = Address.fromString("0x76bd99e49dD65b6212577738cb99c809910f8fab");
+export const MINI_CHEF_ADDRESS = Address.fromString("0xB149d1e3cE296aF0A1210e6C5fC90eFBA41fF6b4");
 
 export const COMPLEX_REWARDER = Address.fromString(
   "0x0000000000000000000000000000000000000000"

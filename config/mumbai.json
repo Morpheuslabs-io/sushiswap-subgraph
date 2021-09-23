@@ -1,10 +1,10 @@
 {
     "network": "mumbai",
-    "factory_address": "0x075a3Dd59F039127D708064d71442BFbEDfd4154",
-    "masterchef_address": "0x7a0038987Ca18b07B92E13d8717dEE21d0F0B840",
-    "sushi_bar_address": "0xCb886aD4F53fEbBd95646AeBeCe4b714E838Eed0",
-    "sushi_maker_address": "0x5595048De6123604646456BE407BfAAC4d34beF7",
-    "sushi_token_address": "0xDdedbde67be6228a1826e61C776971f03675DAb3",
+    "factory_address": "0x3e68BB4559CD8De3e3BDCdF22BFe97043b87984a",
+    "masterchef_address": "0x5F02D5a73260a790BC7f981e3f8F0AaF1F879165",
+    "sushi_bar_address": "0xF1fF1be385b6250480bFA49B0eDdf38f0E5bAd3e",
+    "sushi_maker_address": "0xed77571930A70F4F9F66Cc4F4Ce2FDd146Ba379d",
+    "sushi_token_address": "0x34d911029499A9E6aA935671401Bc28097B53970",
     "sushi_usdt_pair_address": "0x0000000000000000000000000000000000000000",
     "xsushi_usdc_pair_address": "0x0000000000000000000000000000000000000000",
     "xsushi_weth_pair_address": "0x0000000000000000000000000000000000000000",
@@ -21,7 +21,7 @@
     "uniswap_sushi_usdt_pair_address": "0x0000000000000000000000000000000000000000",
     "bentobox_address": "0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
     "kashi_pair_medium_risk_master_address": "0x2cba6ab6574646badc84f0544d05059e57a5dc42",
-    "minichef_address": "0x76bd99e49dD65b6212577738cb99c809910f8fab",
+    "minichef_address": "0xB149d1e3cE296aF0A1210e6C5fC90eFBA41fF6b4",
     "native_address": "0x5B67676a984807a212b1c59eBFc9B3568a474F0a",
     "dai_address": "",
     "usdt_address": "0x0000000000000000000000000000000000000000",
@@ -29,7 +29,7 @@
     "minimum_usd_threshold_new_pairs": "3000",
     "minimum_liquidity_threshold_eth": "1000",
     "factory": {
-        "address": "0x075a3Dd59F039127D708064d71442BFbEDfd4154",
+        "address": "0x3e68BB4559CD8De3e3BDCdF22BFe97043b87984a",
         "startBlock": "17953253"
     },
     "whitelist": [
