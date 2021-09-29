@@ -58,24 +58,24 @@ export const PAIR_BORROW = "borrow";
 
 export const PAIR_REPAY = "repay";
 
-export const FACTORY_ADDRESS = Address.fromString("0x9D5Ef693998878051Ef01384Bf1270eE5b0404C8");
+export const FACTORY_ADDRESS = Address.fromString("0xbE75Fc10f5209cd43403891d1Ddda09D856B730D");
 
 export const MASTER_CHEF_ADDRESS = Address.fromString(
-  "0xE34E84Be518108E1eA7065A3378cBf24f3e5992C" 
+  "0xf575975Dfc55c6809434D37f61e0d4244E418DB9" 
 );
 
 export const MASTER_CHEF_V2_ADDRESS = Address.fromString(
   "0xef0881ec094552b2e128cf945ef17a6752b4ec5d"
 );
 
-export const SUSHI_BAR_ADDRESS = Address.fromString("0x1Fd931d2f3F644dBa1c56a01926c4F1521AFfD47");
+export const SUSHI_BAR_ADDRESS = Address.fromString("0x74a077c8348c9B7AA8fc0a758A8731786a45eFC2");
 
 export const SUSHI_MAKER_ADDRESS = Address.fromString(
-  "0x95DAdbC8Df45a1E202489a279D221D854b6f51bB"
+  "0x6EB347023899882e9608F2eE6fC5e14cEd32dd51"
 );
 
 export const SUSHI_TOKEN_ADDRESS = Address.fromString(
-  "0x1336883c542F0cC598620A831a293A6edEcAE354"
+  "0xc18934e3273B45f4ae807cee80beBA020B292016"
 );
 
 export const SUSHI_USDT_PAIR_ADDRESS = Address.fromString(
@@ -144,7 +144,7 @@ export const KASHI_PAIR_MEDIUM_RISK_MASTER_ADDRESS = Address.fromString(
 );
 
 // MiniChef
-export const MINI_CHEF_ADDRESS = Address.fromString("0xA507b11414db145c5A990169bAB8e2fb5a924bD1");
+export const MINI_CHEF_ADDRESS = Address.fromString("0xa8D2552cA4e4e9Ec6464F2c481EC4d1f20552068");
 
 export const COMPLEX_REWARDER = Address.fromString(
   "0x0000000000000000000000000000000000000000"

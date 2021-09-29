@@ -7,7 +7,7 @@ dataSources:
     name: SushiMaker
     network: mumbai
     source:
-      address: '0x95DAdbC8Df45a1E202489a279D221D854b6f51bB'
+      address: '0x6EB347023899882e9608F2eE6fC5e14cEd32dd51'
       abi: SushiMaker
       startBlock: 17953289
     mapping:
